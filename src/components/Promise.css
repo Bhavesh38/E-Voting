@@ -1,0 +1,77 @@
+.your_promises {
+  width: 50%;
+  height: 200px;
+  overflow-y: scroll;
+  margin: 2%;
+  /* align-items: center; */
+  /* text-align: center; */
+  -webkit-box-shadow: 0 0 10px rgb(117, 238, 247);
+  box-shadow: 0 0 10px rgb(97, 212, 222);
+  padding: 8px;
+}
+.promise_top {
+  display: flex;
+}
+.edit_form {
+  -webkit-box-shadow: 0 0 10px rgb(117, 238, 247);
+  box-shadow: 0 0 10px rgb(97, 212, 222);
+  float: right;
+  display: block;
+  margin-top: 2%;
+  text-align: center;
+  height: 165px;
+  padding: 2%;
+}
+.edit_form > p {
+  margin-bottom: 12px;
+}
+.edit_form > form > input {
+  display: block;
+}
+
+.your_promises > p {
+  text-align: center;
+  font-weight: 600;
+  margin: auto;
+  margin-bottom: 12px;
+}
+.your_promisesContent {
+  border-bottom: 1px solid #000;
+  background-color: rgb(249, 245, 241);
+  padding: 6px;
+}
+.your_promisesContent:hover {
+  background-color: antiquewhite;
+  font-size: 1.05rem;
+  transition: 400ms;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.candidate_promise {
+  width: 90%;
+  /* height: 100px; */
+  margin: 2%;
+  -webkit-box-shadow: 0 0 10px rgb(117, 238, 247);
+  box-shadow: 0 0 10px rgb(97, 212, 222);
+}
+.candidate_promise {
+  display: flex;
+  align-items: center;
+}
+.candidate_promise > span {
+  background-color: aqua;
+  border-radius: 50%;
+  padding: 8px;
+  font-weight: 600;
+
+  margin-right: 8px;
+}
+.promises {
+  width: 88%;
+  height: 90px;
+  border-left: 4px solid gray;
+  padding-left: 12px;
+  overflow-y: scroll;
+}

@@ -13,8 +13,6 @@
   background-color: rgb(96, 245, 245);
   cursor: pointer;
 }
-.candidateLogin > span {
-  padding: 12px;
-  margin: 24px 12px;
-  /* font-size: 1.2rem; */
+.candidateLogin > p {
+  text-align: center;
 }

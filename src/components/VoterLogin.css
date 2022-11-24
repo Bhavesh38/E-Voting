@@ -1,0 +1,29 @@
+.voterLogin {
+  width: 50%;
+  -webkit-box-shadow: 0 0 10px rgb(174, 163, 163);
+  box-shadow: 0 0 10px rgb(166, 162, 162);
+  margin: auto;
+  margin-top: 5%;
+  padding: 16px;
+}
+.voterLogin > h3 {
+  text-align: center;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  border-bottom: 1px solid rgb(56, 212, 210);
+}
+.voterLogin > form > input,
+.voterLogin > form > button {
+  width: 80%;
+  margin: auto;
+  background-color: aqua;
+  border: none;
+  outline: none;
+  margin-bottom: 12px;
+  padding: 8px;
+  margin-left: 12px;
+  border-radius: 20px;
+}
+.voterLogin > p {
+  text-align: center;
+}

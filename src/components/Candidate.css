@@ -1,0 +1,33 @@
+.candidate {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  margin-top: 5%;
+  -webkit-box-shadow: 0 0 10px rgb(215, 208, 208);
+  box-shadow: 0 0 10px rgb(198, 196, 196);
+  padding: 16px;
+}
+.candidate > p {
+  padding: 6px;
+  border-radius: 19px;
+  background-color: aqua;
+  margin: 16px;
+  cursor: pointer;
+}
+.candidate > p > span {
+  padding: 1px 4px;
+  background-color: rgb(240, 238, 168);
+  border-radius: 19px;
+  color: rgb(172, 162, 114);
+}
+.candidate > p:hover {
+  -webkit-box-shadow: 0 0 10px rgb(117, 238, 247);
+  box-shadow: 0 0 10px rgb(97, 212, 222);
+  background-color: rgb(109, 250, 250);
+  font-size: 1.1rem;
+  transition: 500ms;
+}
+.candidate > p > a {
+  text-decoration: none;
+  color: black;
+}

@@ -15,7 +15,7 @@ function Home() {
                 <Link>
                     <span>ECA <CallMadeIcon /></span>
                 </Link>
-                <Link>
+                <Link to="/voter">
                     <span>VOTER <CallMadeIcon /></span>
                 </Link>
             </div>

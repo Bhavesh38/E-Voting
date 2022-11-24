@@ -1,0 +1,28 @@
+.voter {
+  width: 40%;
+  height: max-content;
+  margin: auto;
+  text-align: left;
+  margin-top: 8%;
+  background-color: white;
+  -webkit-box-shadow: 0 0 10px rgb(212, 208, 208);
+  box-shadow: 0 0 10px rgb(206, 202, 202);
+  padding: 12px;
+}
+.voter > h3 {
+  text-align: center;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #000;
+  /* padding-bottom: 12px; */
+}
+.voter > form > input {
+  display: block;
+  width: 80%;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  padding: 8px;
+  background-color: rgb(87, 235, 227);
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}

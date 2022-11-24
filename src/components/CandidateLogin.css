@@ -61,6 +61,7 @@
   padding: 6px;
   align-items: center;
   border-radius: 5px;
+  align-items: center;
 }
 .form_password > input {
   background-color: rgb(148, 229, 229);
@@ -70,6 +71,7 @@
 }
 .form_password > span {
   float: right;
+  height: 10px;
 }
 .form_btn {
   margin: 12px;

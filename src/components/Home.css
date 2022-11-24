@@ -6,7 +6,7 @@
   height: 100vh;
   background-color: rgba(134, 127, 124, 0.662);
 }
-span {
+.home > span {
   align-items: center;
   border: none;
   background-color: rgb(67, 242, 242);

@@ -3,17 +3,18 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import { Link } from "react-router-dom";
 import "./CandidateLogin.css";
+import "./Voter.css"
 
-function CandidateRegistration() {
+function Voter() {
     const [showPassword, setShowPassword] = useState(false);
     const setVisiblity = () => {
         setShowPassword(!showPassword);
     }
     return (
-        <div className='candidateLogin'>
-            <h3>Candidate Registeration Here</h3>
+        <div className='voter'>
+            <h3>Voter Registeration Here</h3>
             <form>
-                <input type="text" id="name" required placeholder='Voter Name' name="name" />
+                <input type="text" id="name" required placeholder='Candidate Name' name="name" />
                 <input type="text" id='email' placeholder='Your Email' name="email" required />
                 <div className='form_dob'>
                     <label for="dob">Your Date of Birth</label>
@@ -43,13 +44,12 @@ function CandidateRegistration() {
             </form>
             {/* <hr /> */}
             <div className='candidateLogin_bottomSpan'>
-                <span>You are already registered?   <Link to="/candidatelogin">Login Here</Link></span>
+                <span>You are already registered as a Voter?   <Link to="/voterlogin">Login Here</Link></span>
                 <hr />
-                <span>You are only <Link to="/voter">Voter</Link></span>
+                <span>You are the Candidate <Link to="/candidatelogin">Voter</Link></span>
             </div>
-
         </div>
     )
 }
 
-export default CandidateRegistration;
+export default Voter
