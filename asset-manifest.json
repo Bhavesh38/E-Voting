@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Bhavesh38/E-Voting/static/css/main.76d5d388.css",
+    "main.js": "/Bhavesh38/E-Voting/static/js/main.19759408.js",
+    "index.html": "/Bhavesh38/E-Voting/index.html",
+    "main.76d5d388.css.map": "/Bhavesh38/E-Voting/static/css/main.76d5d388.css.map",
+    "main.19759408.js.map": "/Bhavesh38/E-Voting/static/js/main.19759408.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76d5d388.css",
+    "static/js/main.19759408.js"
+  ]
+}
