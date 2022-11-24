@@ -1,0 +1,114 @@
+.candidateLogin {
+  /* border: 1px solid red; */
+  width: 40%;
+  height: max-content;
+  margin: auto;
+  text-align: left;
+  margin-top: 8%;
+  background-color: white;
+  -webkit-box-shadow: 0 0 10px rgb(212, 208, 208);
+  box-shadow: 0 0 10px rgb(206, 202, 202);
+  padding: 12px;
+}
+.candidateLogin > h3 {
+  text-align: center;
+  margin: 12px;
+  color: rgb(67, 70, 70);
+}
+.candidateLogin > form > input {
+  width: 80%;
+  padding: 12px;
+  margin: 12px;
+  outline: none;
+  background-color: rgb(148, 229, 229);
+  color: rgb(0, 0, 0);
+  border: none;
+  font-weight: 500;
+  border-radius: 5px;
+  /* display: block; */
+  /* text-align: center; */
+}
+#gender {
+  padding: 12px;
+  outline: none;
+  margin: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(148, 229, 229);
+  color: rgb(0, 0, 0);
+}
+.form_dob {
+  padding: 6px;
+  width: 80%;
+  outline: none;
+  margin: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(148, 229, 229);
+  color: rgb(0, 0, 0);
+}
+.form_dob > input {
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 6px;
+}
+.form_password {
+  width: 80%;
+  background-color: rgb(148, 229, 229);
+  margin: 12px;
+  padding: 6px;
+  align-items: center;
+  border-radius: 5px;
+}
+.form_password > input {
+  background-color: rgb(148, 229, 229);
+  outline: none;
+  border: none;
+  margin: 6px;
+}
+.form_password > span {
+  float: right;
+}
+.form_btn {
+  margin: 12px;
+  padding: 12px;
+  background-color: rgb(148, 229, 229);
+  outline: none;
+  border: none;
+  width: 82%;
+  font-weight: 500;
+  border-radius: 19px;
+  font-size: 1.2rem;
+}
+.form_btn:hover {
+  background-color: rgb(96, 245, 245);
+  cursor: pointer;
+}
+.candidateLogin > hr {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin: 12px;
+  color: aqua;
+}
+.candidateLogin_bottomSpan {
+  /* text-align: center; */
+  /* font-size: 1.3rem; */
+  margin: 12px;
+}
+.candidateLogin_bottomSpan > hr {
+  margin: 12px;
+}
+.candidateLogin_bottomSpan > span {
+  display: block;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 815px) {
+  .candidateLogin {
+    width: 90%;
+  }
+}

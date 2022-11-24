@@ -1,0 +1,20 @@
+.candidateLogin > form > button {
+  margin: 12px;
+  text-align: center;
+  padding: 6px;
+  outline: none;
+  border: none;
+  background-color: rgb(148, 229, 229);
+  border-radius: 19px;
+  width: 85%;
+  /* font-size: 1.3rem; */
+}
+.candidateLogin > form > button:hover {
+  background-color: rgb(96, 245, 245);
+  cursor: pointer;
+}
+.candidateLogin > span {
+  padding: 12px;
+  margin: 24px 12px;
+  /* font-size: 1.2rem; */
+}

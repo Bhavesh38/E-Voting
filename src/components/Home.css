@@ -1,0 +1,20 @@
+.home {
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 20%; */
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(134, 127, 124, 0.662);
+}
+span {
+  align-items: center;
+  border: none;
+  background-color: rgb(67, 242, 242);
+  color: rgb(18, 17, 17);
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 2rem;
+  cursor: pointer;
+  text-decoration: underline;
+  border-radius: 5px;
+}
